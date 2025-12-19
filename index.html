@@ -5,78 +5,162 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bone Graft Injectable Berbasis Hidroksiapatit Cangkang Telur</title>
   <style>
-    body { 
-      margin: 0; 
-      font-family: Arial, Helvetica, sans-serif; 
-      background-color: #EDE0D4; /* Cream muda */
-      color: #333; 
-      line-height: 1.6; 
-    }
-    header { 
-      background-color: #7F5539; /* Coklat gelap */
-      color: white; 
-      padding: 40px 20px; 
-      text-align: center; 
-    }
-    nav { 
-      background-color: #B08968; /* Coklat keemasan */
-      padding: 10px; 
-      text-align: center; 
-      position: sticky; 
-      top: 0; 
-    }
-    nav a { 
-      color: white; 
-      margin: 0 15px; 
-      text-decoration: none; 
-      font-weight: bold; 
-      font-size: 14px; 
-    }
-    section { 
-      padding: 40px 20px; 
-      max-width: 1200px; 
-      margin: auto; 
-    }
-    h2 { 
-      color: #7F5539; /* Coklat gelap */
-      font-size: 1.8rem; 
-      text-align: center; 
-      margin-bottom: 20px; 
-    }
-    h3 { 
-      margin-top: 25px; 
-      color: #7F5539; /* Coklat gelap */
-      font-size: 1.5rem; 
-    }
-    .card { 
-      background-color: #DDB892; /* Coklat muda */
-      padding: 25px; 
-      margin-top: 20px; 
-      border-radius: 10px; 
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    }
-    table { 
-      width: 100%; 
-      border-collapse: collapse; 
-      margin-top: 15px; 
-    }
-    table, th, td { 
-      border: 1px solid #ccc; 
-    }
-    th, td { 
-      padding: 10px; 
-      text-align: left; 
-    }
-    th { 
-      background: #E6CCB2; /* Coklat terang */
-    }
-    footer { 
-      background-color: #B08968; /* Coklat keemasan */
-      color: white; 
-      text-align: center; 
-      padding: 15px; 
-      margin-top: 40px; 
-    }
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#FFF8E7;
+  color:#4B3B2A;
+  line-height:1.6;
+}
+
+/* HEADER */
+header{
+  background:linear-gradient(135deg,#F5E0C3,#D8BCAA);
+  color:#4B3B2A;
+  padding:40px 20px;
+  text-align:center;
+}
+
+header h1{
+  margin:10px 0;
+}
+
+header p{
+  font-size:16px;
+}
+
+/* NAV */
+nav{
+  background:#D8BCAA;
+  padding:12px;
+  text-align:center;
+  position:sticky;
+  top:0;
+}
+
+nav a{
+  color:#4B3B2A;
+  margin:0 12px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+/* SECTION */
+section{
+  padding:40px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+h2{
+  color:#4B3B2A;
+  background:#E6CFC0;
+  border-left:6px solid #BFA189;
+  padding:8px 12px;
+  border-radius:8px;
+  margin:10px 0 12px 0;
+  transition: all 0.35s cubic-bezier(.4,0,.2,1);
+}
+
+h3{
+  margin:12px 0 8px 0; 
+  color:#BFA189;
+}
+
+/* CARD */
+.card{
+  background:#FFF3E0;
+  padding:18px;
+  margin-top:15px;
+  border-radius:14px;
+  box-shadow:0 6px 16px rgba(75,59,42,.15);
+}
+
+/* TABLE */
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:15px;
+}
+
+table,th,td{
+  border:1px solid #E6D6C3;
+}
+
+th,td{
+  padding:12px;
+  text-align:left;
+}
+
+th{
+  background:#F0E2D0;
+  color:#4B3B2A;
+}
+
+ul{
+  padding-left:20px;
+}
+
+/* CODE */
+pre{
+  background:#4B3B2A;
+  color:#FFF8E7;
+  padding:15px;
+  border-radius:10px;
+  overflow-x:auto;
+}
+
+/* FOOTER */
+footer{
+  background:#D8BCAA;
+  color:#4B3B2A;
+  text-align:center;
+  padding:18px;
+  margin-top:40px;
+}
+
+/* Tim Pengembang */
+.team-box{
+  max-width:520px;
+  margin:auto;
+  background:#E6CFC0;
+  border-radius:16px;
+  padding:18px;
+  box-shadow:0 10px 22px rgba(75,59,42,.22);
+}
+
+.member-card{
+  background:#FFF3E0;
+  border-radius:12px;
+  padding:16px 12px;
+  text-align:center;
+  margin-bottom:14px;
+  box-shadow:0 5px 12px rgba(75,59,42,.18);
+}
+
+.member-card h3{
+  margin:0 0 6px 0;
+  font-size:17px;
+  color:#BFA189;
+  font-weight:600;
+}
+
+.member-card p{
+  margin:0;
+  font-size:14px;
+  color:#4B3B2A;
+  letter-spacing:2px;
+}
+
+.member-card:hover{
+  transform: translateY(-8px);
+  box-shadow:0 12px 22px rgba(75,59,42,.35);
+}
   </style>
 </head>
 <body>
@@ -100,75 +184,9 @@
   <a href="#kontak">Kontak</a>
 </nav>
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tim Pengembang</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #DDB892, #E6CCB2);
-    }
-
-    .team-section {
-      padding: 60px 15px;
-    }
-
-    .team-box {
-      max-width: 700px;
-      margin: auto;
-      background: rgba(255, 255, 255, 0.15);
-      border-radius: 10px;
-      padding: 10px 20px;
-      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-    }
-
-    .team-title {
-      text-align: center;
-      font-size: 30px;
-      margin-bottom: 10px;
-      color: #2D2424;
-      font-weight: bold;
-    }
-
-   .member-card {
-  background: rgba(255, 255, 255, 0.25);
-  border-radius: 10px;
-  padding: 25px 15px;
-  text-align: center;
-  margin-bottom: 15px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-  .member-card h3 {
-  margin: 0;
-  margin-bottom: 10px;
-  font-size: 20px;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-  .member-card p {
-  margin: 0;
-  font-size: 18px;
-  color: #ffffff;
-  letter-spacing: 1px;
-}
-  </style>
-</head>
-
-<body>
-
-<section class="Tim Pengembang">
+<!-- Tim Pengembang -->
+<section class="team-section">
   <div class="team-box">
-
     <div class="team-title">👥 Tim Pengembang</div>
 
     <div class="member-card">
@@ -178,19 +196,15 @@
 
     <div class="member-card">
       <h3>🥚 Mia Lutfiana</h3>
-      <p> Teknik Biomedis ITERA</p>
+      <p>Teknik Biomedis ITERA</p>
     </div>
 
     <div class="member-card">
       <h3>🥚 Naya Putri Renanda</h3>
-      <p> Teknik Biomedis ITERA</p>
+      <p>Teknik Biomedis ITERA</p>
     </div>
-
   </div>
 </section>
-
-</body>
-</html>
 
 <!-- Tentang Section -->
 <section id="tentang" class="card">
@@ -242,8 +256,6 @@
 <footer>
   <p>© 2025 Bone Graft Injectable. All Rights Reserved.</p>
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
