@@ -4,94 +4,228 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bone Graft Injectable - Terapi Periodontal</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset dan Basic Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #1e88e5;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 8cm;
+            height: 3cm;
+            object-fit: contain;
+        }
+
+        header h1 {
+            margin: 20px 0;
+            font-size: 2.5rem;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Navbar */
+        nav {
+            background: #1565c0;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffca28;
+        }
+
+        /* Hero Section */
+        .hero-header {
+            padding: 50px 20px;
+            text-align: center;
+            background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+            color: white;
+        }
+
+        .hero-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Features Section */
+        .features {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #0d47a1;
+        }
+
+        .features .feature-item {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            background-color: #e3f2fd;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .features .feature-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .features .feature-item p {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        /* Methods and Results */
+        .methods, .results {
+            padding: 40px 20px;
+            background-color: #ffffff;
+            text-align: center;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 1100px;
+        }
+
+        .methods h2, .results h2 {
+            font-size: 2rem;
+            color: #0d47a1;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Form */
+        .contact {
+            background-color: #f1f1f1;
+            padding: 50px 20px;
+        }
+
+        .contact h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .contact form {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .contact label {
+            font-size: 1.1rem;
+            text-align: left;
+        }
+
+        .contact input, .contact textarea {
+            padding: 12px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 12px 30px;
+            background-color: #1e88e5;
+            color: white;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #1565c0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e88e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Bone Graft Injectable Berbasis Hidroksiapatit Dari Cangkang Kulit Telur dan HPMC</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Beranda</a></li>
-                    <li><a href="#features">Fitur</a></li>
-                    <li><a href="#methods">Metode</a></li>
-                    <li><a href="#results">Hasil</a></li>
-                    <li><a href="#contact">Kontak</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Solusi Regenerasi Tulang Periodontal yang Efektif dan Berkelanjutan</h2>
-            <p>Bone Graft Injectable berbasis hidroksiapatit dari cangkang kulit telur memberikan alternatif yang ramah lingkungan dan ekonomis dalam terapi periodontal.</p>
-        </div>
-    </section>
+<header class="hero-header">
+  <div class="hero-content">
+    <img src="https://via.placeholder.com/150" alt="Logo">
+    <h1>Bone Graft Injectable Berbasis Hidroksiapatit Dari Cangkang Kulit Telur dan HPMC</h1>
+    <p>Inovasi terbaru dalam terapi periodontal dengan material yang ramah lingkungan dan efektif.</p>
+  </div>
+</header>
 
-    <!-- Fitur -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Fitur Utama</h2>
-            <div class="feature-item">
-                <h3>Waktu Pengerasan Optimal</h3>
-                <p>Waktu pengerasan rata-rata 22,5 menit yang sesuai untuk aplikasi klinis pada terapi periodontal.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Stabilitas Fisik yang Baik</h3>
-                <p>Material tetap utuh dan stabil setelah perendaman dalam larutan PBS, tanpa perubahan bentuk atau kerusakan struktural.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Keberlanjutan dan Biaya Terjangkau</h3>
-                <p>Pemanfaatan cangkang kulit telur sebagai bahan baku memberikan keuntungan keberlanjutan dan biaya yang lebih rendah dibandingkan sumber lainnya.</p>
-            </div>
-        </div>
-    </section>
+<nav>
+  <a href="#home">Beranda</a>
+  <a href="#features">Fitur</a>
+  <a href="#methods">Metode</a>
+  <a href="#results">Hasil</a>
+  <a href="#contact">Kontak</a>
+</nav>
 
-    <!-- Metode -->
-    <section id="methods" class="methods">
-        <div class="container">
-            <h2>Metode Penelitian</h2>
-            <p>Penelitian ini menguji waktu pengerasan dan stabilitas fisik pasta injectable berbasis hidroksiapatit dari cangkang kulit telur menggunakan metode kemiringan permukaan dan perendaman dalam larutan PBS.</p>
-        </div>
-    </section>
+<section id="home" class="hero">
+    <h2>Selamat Datang di Proyek Bone Graft Injectable</h2>
+    <p>Produk inovatif yang berbasis **hidroksiapatit** dari **cangkang kulit telur** untuk membantu regenerasi tulang periodontal yang efektif dan berkelanjutan.</p>
+</section>
 
-    <!-- Hasil -->
-    <section id="results" class="results">
-        <div class="container">
-            <h2>Hasil Penelitian</h2>
-            <p>Hasil penelitian menunjukkan bahwa pasta injectable berbasis hidroksiapatit dari cangkang kulit telur memiliki waktu pengerasan rata-rata 22,5 menit dan stabilitas fisik yang baik setelah perendaman dalam PBS selama 24 jam.</p>
-        </div>
-    </section>
-
-    <!-- Kontak -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Kontak Kami</h2>
-            <form id="contact-form">
-                <label for="name">Nama:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Pesan:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Kirim Pesan</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Bone Graft Injectable. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+<section id="features" class="features">
+    <h2>Fitur Utama</h2>
+    <div class="feature-item">
+        <h3>Waktu Pengerasan Optimal</h3>
+        <p>Waktu pengerasan rata-rata 22,5 menit yang sesuai untuk aplikasi klinis.</p>
+    </div>
+    <div class="feature-item">
+        <h3>Stabilitas Fisik yang Baik</h3>
+        <p>Stabil dalam kondisi cair simulatif dan tidak mengalami kerusakan struktural.</p>
+    </div>
+    <div class="feature-item">
+        <h3>Keberlanjutan dan Biaya Terjangkau</h3>
+        <p>Pemanfaatan cangkang kulit telur sebagai bahan baku yang ramah li
