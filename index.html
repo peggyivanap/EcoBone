@@ -257,22 +257,6 @@ footer{
   }
  }
 
-<script>
-const cards = document.querySelectorAll('.card');
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add('show');
-    }
-  });
-}, {
-  threshold: 0.15
-});
-
-cards.forEach(card => observer.observe(card));
-</script>
-
 /* DOT INDICATOR */
 .dots{
   display:flex;
@@ -464,6 +448,22 @@ setInterval(() => {
   dots.forEach(dot => dot.classList.remove("active"));
   dots[index].classList.add("active");
 }, 4000);
+</script>
+
+<script>
+const cards = document.querySelectorAll('.card');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, {
+  threshold: 0.15
+});
+
+cards.forEach(card => observer.observe(card));
 </script>
 
 </body>
