@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Bone Graft Injectable Berbasis Hidroksiapatit</title>
-
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bone Graft Injectable Berbasis Hidroksiapatit Cangkang Telur</title>
+  <style>
 body{
   margin:0;
   font-family:Arial,Helvetica,sans-serif;
@@ -17,8 +16,17 @@ body{
 /* HEADER */
 header{
   background:linear-gradient(135deg,#F5E0C3,#D8BCAA);
+  color:#4B3B2A;
   padding:40px 20px;
   text-align:center;
+}
+
+header h1{
+  margin:10px 0;
+}
+
+header p{
+  font-size:16px;
 }
 
 /* NAV */
@@ -35,6 +43,11 @@ nav a{
   margin:0 12px;
   text-decoration:none;
   font-weight:bold;
+  font-size:14px;
+}
+
+nav a:hover{
+  text-decoration:underline;
 }
 
 /* SECTION */
@@ -43,8 +56,39 @@ section{
   max-width:1100px;
   margin:auto;
 }
+  p {
+  font-family: 'Georgia', serif;  /* Bisa diganti dengan font lain */
+  font-size: 16px;                /* Ukuran font */
+  line-height: 1.8;               /* Jarak antar baris */
+  color: #4B3B2A;                 /* Warna teks (opsional) */
+}
+    
+p2 {
+  font-family: 'Helvetica', serif;  /* Bisa diganti dengan font lain */
+  font-size: 16px;                /* Ukuran font */
+  line-height: 1.8;               /* Jarak antar baris */
+  color: #4B3B2A;                 /* Warna teks (opsional) */
+}
+    
+p3 {
+  font-family: 'Arial', serif;  /* Bisa diganti dengan font lain */
+  font-size: 16px;                /* Ukuran font */
+  line-height: 1.8;               /* Jarak antar baris */
+  color: #4B3B2A;                 /* Warna teks (opsional) */
+}
+
+h2{
+  color:#4B3B2A;
+  background:#E6CFC0;
+  border-left:6px solid #BFA189;
+  padding:8px 12px;
+  border-radius:8px;
+  margin:10px 0 12px 0;
+  transition: all 0.35s cubic-bezier(.4,0,.2,1);
+}
 
 h3{
+  margin:12px 0 8px 0; 
   color:#BFA189;
 }
 
@@ -52,13 +96,101 @@ h3{
 .card{
   background:#FFF3E0;
   padding:18px;
+  margin-top:15px;
   border-radius:14px;
   box-shadow:0 6px 16px rgba(75,59,42,.15);
 }
 
-/* =====================
-   SLIDER TENTANG
-===================== */
+/* TABLE */
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:15px;
+}
+
+table,th,td{
+  border:1px solid #E6D6C3;
+}
+
+th,td{
+  padding:12px;
+  text-align:left;
+}
+
+th{
+  background:#F0E2D0;
+  color:#4B3B2A;
+}
+
+ul{
+  padding-left:20px;
+}
+
+/* CODE */
+pre{
+  background:#4B3B2A;
+  color:#FFF8E7;
+  padding:15px;
+  border-radius:10px;
+  overflow-x:auto;
+}
+
+/* FOOTER */
+footer{
+  background:#D8BCAA;
+  color:#4B3B2A;
+  text-align:center;
+  padding:18px;
+  margin-top:40px;
+}
+
+/* Tim Pengembang */
+.team-box{
+  max-width:520px;
+  margin:auto;
+  background:#E6CFC0;
+  border-radius:16px;
+  padding:18px;
+  box-shadow:0 10px 22px rgba(75,59,42,.22);
+}
+
+.team-title{
+  text-align:center;
+  font-size:24px;
+  margin-bottom:18px;
+  color:#4B3B2A;
+  font-weight:bold;
+}
+
+.member-card{
+  background:#FFF3E0;
+  border-radius:12px;
+  padding:16px 12px;
+  text-align:center;
+  margin-bottom:14px;
+  box-shadow:0 5px 12px rgba(75,59,42,.18);
+}
+
+.member-card h3{
+  margin:0 0 6px 0;
+  font-size:17px;
+  color:#BFA189;
+  font-weight:600;
+}
+
+.member-card p{
+  margin:0;
+  font-size:14px;
+  color:#4B3B2A;
+  letter-spacing:2px;
+}
+
+.member-card:hover{
+  transform: translateY(-8px);
+  box-shadow:0 12px 22px rgba(75,59,42,.35);
+}
+
+/* === SLIDER TENTANG === */
 .slider-wrapper{
   position:relative;
 }
@@ -101,4 +233,138 @@ h3{
 .dot.active{
   background:#4B3B2A;
   opacity:1;
-  transform:scale(1.
+  transform:scale(1.2);
+}
+
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="hero-content">
+    <img src="logoheader.png" alt="Logo" style="width:10cm; height:4cm; object-fit:contain;">
+    <h1>Bone Graft Injectable Berbasis Hidroksiapatit</h1>
+    <p>Inovasi Bone Graft Injectable berbasis hidroksiapatit dari cangkang kulit telur untuk terapi periodontal yang lebih efektif dan berkelanjutan</p>
+  </div>
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+  <a href="#Home">Beranda</a>
+  <a href="#Tentang">Tentang</a>
+  <a href="#Keunggulan">Keunggulan</a>
+  <a href="#Metode">Metode</a>
+  <a href="#Hasil">Hasil</a>
+  <a href="#Kontak">Kontak</a>
+</nav>
+
+<!-- Tim Pengembang -->
+<section class="team-section">
+  <div class="team-box">
+    <div class="team-title">👥 Tim Pengembang</div>
+
+    <div class="member-card">
+      <h3>🥚 Peggy Ivana Prayuda</h3>
+      <p2>Teknik Biomedis ITERA</p2>
+    </div>
+
+    <div class="member-card">
+      <h3>🥚 Mia Lutfiana</h3>
+      <p2>Teknik Biomedis ITERA</p2>
+    </div>
+
+    <div class="member-card">
+      <h3>🥚 Naya Putri Renanda</h3>
+      <p2>Teknik Biomedis ITERA</p2>
+    </div>
+  </div>
+</section>
+
+<!-- Tentang Section -->
+<section id="Tentang" class="card">
+  <h3>Tentang Bone Graft Injectable</h3>
+
+  <div class="slider-wrapper">
+    <div class="slider-container">
+      <div class="slider" id="slider">
+        <img src="bg1.png" alt="Bone Graft Injectable 1">
+        <img src="bg2.png" alt="Bone Graft Injectable 2">
+      </div>
+    </div>
+
+    <div class="dots">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+
+  <p>
+    Bone Graft Injectable berbasis hidroksiapatit yang disintesis dari cangkang kulit telur 
+    adalah material inovatif yang digunakan dalam terapi regenerasi tulang periodontal. 
+    Penelitian ini mengkaji pemanfaatan material ini dalam bentuk injectable, yang menawarkan 
+    kemudahan aplikasi serta potensi regenerasi tulang yang lebih efisien.
+  </p>
+</section>
+
+<!-- Keunggulan -->
+<section id="Keunggulan" class="card">
+  <h3>Keunggulan</h3>
+  <ul>
+    <li>Waktu pengerasan optimal 22,5 menit</li>
+    <li>Stabilitas fisik yang baik setelah perendaman dalam PBS</li>
+    <li>Terbuat dari bahan alami yang berkelanjutan (cangkang kulit telur)</li>
+    <li>Alternatif lebih ekonomis dan ramah lingkungan</li>
+  </ul>
+</section>
+
+<!-- Metode Section -->
+<section id="Metode" class="card">
+  <h3>Metode Penelitian</h3>
+  <p>Penelitian ini menggunakan desain eksperimen untuk menguji waktu pengerasan dan stabilitas fisik bone graft injectable berbasis hidroksiapatit dari cangkang kulit telur dengan matriks HPMC. Pengujian dilakukan dengan mengukur waktu pengerasan menggunakan metode kemiringan permukaan dan evaluasi stabilitas fisik melalui perendaman dalam larutan phosphate buffered saline (PBS).</p>
+</section>
+
+<!-- Hasil Section -->
+<section id="Hasil" class="card">
+  <h3>Hasil Penelitian</h3>
+  <p>Hasil penelitian menunjukkan bahwa pasta injectable berbasis hidroksiapatit dari cangkang kulit telur memiliki waktu pengerasan rata-rata 22,5 menit dan stabilitas fisik yang baik, tanpa perubahan bentuk atau kerusakan struktural setelah perendaman dalam PBS selama 24 jam. Hal ini menunjukkan bahwa material ini memiliki potensi untuk diterapkan dalam terapi periodontal dengan kestabilan yang baik.</p>
+</section>
+
+<!-- Kontak Section -->
+<section id="Kontak" class="card">
+  <h3>Kontak Kami</h3>
+  <form id="contact-form">
+    <label for="name">Nama:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Pesan:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p3>© 2025 Bone Graft Injectable. All Rights Reserved.</p3>
+</footer>
+
+<script>
+let index = 0;
+const slider = document.getElementById("slider");
+const dots = document.querySelectorAll(".dot");
+
+setInterval(() => {
+  index = (index + 1) % 2;
+  slider.style.transform = `translateX(-${index * 50}%)`;
+
+  dots.forEach(dot => dot.classList.remove("active"));
+  dots[index].classList.add("active");
+}, 4000);
+</script>
+
+</body>
+</html>
