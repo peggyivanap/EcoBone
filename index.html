@@ -80,6 +80,7 @@ header p{
   font-size:42px;
   opacity:0.16;
   animation: float 6s ease-in-out infinite;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 @keyframes float{
@@ -578,6 +579,22 @@ const observer = new IntersectionObserver(entries => {
 });
 
 cards.forEach(card => observer.observe(card));
+</script>
+
+  <script>
+const icons = ["🥚", "🦷", "🧬", "🔬"];
+
+setInterval(() => {
+  const eggs = document.querySelectorAll(".egg-icon");
+
+  eggs.forEach(egg => {
+    // Biar gak semuanya ganti barengan
+    if (Math.random() > 0.6) {
+      const randomIcon = icons[Math.floor(Math.random() * icons.length)];
+      egg.textContent = randomIcon;
+    }
+  });
+}, 3500);
 </script>
 
 </body>
