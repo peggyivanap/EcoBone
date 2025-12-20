@@ -244,6 +244,19 @@ footer{
   opacity:1;
   transform:scale(1.2);
 }
+/* VIDEO DOKUMENTASI */
+.video-container{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+}
+
+.video-container video{
+  width:100%;
+  max-width:720px;   /* ideal utk presentasi & dosen */
+  border-radius:14px;
+  box-shadow:0 6px 16px rgba(75,59,42,.15);
+}
 
   </style>
 </head>
@@ -265,7 +278,7 @@ footer{
   <a href="#Keunggulan">Keunggulan</a>
   <a href="#Metode">Metode</a>
   <a href="#Hasil">Hasil</a>
-  <a href="#Kontak">Kontak</a>
+ <a href="#Dokumentasi">Dokumentasi</a>
 </nav>
 
 <!-- Tim Pengembang -->
@@ -330,7 +343,7 @@ footer{
 <!-- Metode Section -->
 <section id="Metode" class="card">
   <h3>Metode Penelitian</h3>
-  <p>Penelitian ini menggunakan desain eksperimen untuk menguji waktu pengerasan dan stabilitas fisik bone graft injectable berbasis hidroksiapatit dari cangkang kulit telur dengan matriks HPMC. Pengujian dilakukan dengan mengukur waktu pengerasan menggunakan metode kemiringan permukaan dan evaluasi stabilitas fisik melalui perendaman dalam larutan phosphate buffered saline (PBS).</p>
+  <p>Penelitian pembuatan bonegraft diawali dengan sintesis hidroksiapatit (HA) melalui metode presipitasi basah, menggunakan cangkang telur sebagai prekursor kalsium. Serbuk HA yang dihasilkan kemudian diformulasi dengan larutan hidroksipropil metilselulosa (HPMC) untuk membentuk pasta injeksi yang homogen. Pasta tersebut selanjutnya dikemas ke dalam syringe dan sterilisasi akhir dengan iradiasi sinar UV. Tahap pengujian produk berupa evaluasi sifat fungsional seperti kemampuan injeksi, waktu pengerasan, dan analisis fisiko-kimia yang mencakup pengukuran pH serta uji sterilitas. Karakterisasi lebih lanjut terhadap morfologi dan gugus fungsi material dilakukan menggunakan Fourier Transform Infrared Spectroscopy (FTIR) untuk memastikan identitas kimia dan kualitas bonegraft yang dikembangkan.</p>
 </section>
 
 <!-- Hasil Section -->
@@ -339,22 +352,20 @@ footer{
   <p>Hasil penelitian menunjukkan bahwa pasta injectable berbasis hidroksiapatit dari cangkang kulit telur memiliki waktu pengerasan rata-rata 22,5 menit dan stabilitas fisik yang baik, tanpa perubahan bentuk atau kerusakan struktural setelah perendaman dalam PBS selama 24 jam. Hal ini menunjukkan bahwa material ini memiliki potensi untuk diterapkan dalam terapi periodontal dengan kestabilan yang baik.</p>
 </section>
 
-<!-- Kontak Section -->
-<section id="Kontak" class="card">
-  <h3>Kontak Kami</h3>
-  <form id="contact-form">
-    <label for="name">Nama:</label>
-    <input type="text" id="name" name="name" required>
+/* VIDEO DOKUMENTASI */
+.video-container{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+}
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Pesan:</label>
-    <textarea id="message" name="message" required></textarea>
-
-    <button type="submit">Kirim Pesan</button>
-  </form>
-</section>
+.video-container video{
+  width:100%;
+  max-width:360px;   /* PAS untuk video portrait */
+  height:auto;       /* jaga rasio 478x850 */
+  border-radius:14px;
+  box-shadow:0 6px 16px rgba(75,59,42,.15);
+}
 
 <!-- Footer -->
 <footer>
