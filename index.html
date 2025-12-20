@@ -200,6 +200,7 @@ footer{
   overflow:hidden;
   border-radius:14px;
   margin:15px 0;
+  background:#F5E0C3;
 }
 
 .slider{
@@ -210,14 +211,16 @@ footer{
 
 .slider img{
   width:50%;
-  height:260px;          /* tinggi dikunci */
-  object-fit:cover;     /* potong rapi, tetap landscape */
+  max-height:300px;     /* kontrol ukuran */
+  height:auto;          /* biar proporsional */
+  object-fit:contain;   /* TIDAK DIPOTONG */
+  background:#F5E0C3;   /* biar gak keliatan kosong */
   border-radius:12px;
 }
 
  @media (max-width:768px){
   .slider img{
-    height:200px;
+    max-height:220px;
   }
 
 /* DOT INDICATOR */
