@@ -130,7 +130,17 @@ section[id]{
   text-align: justify;
   text-justify: inter-word;
 } 
-    
+.card, 
+.card p, 
+.card ul, 
+.card li {
+  font-family: 'Helvetica', Arial, sans-serif;  /* font seragam */
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4B3B2A;
+  text-align: justify;
+}
+   
 p2 {
   font-family: 'Helvetica', serif;  /* Bisa diganti dengan font lain */
   font-size: 16px;                /* Ukuran font */
@@ -275,17 +285,20 @@ footer{
   transition: transform .3s ease, box-shadow .3s ease;
 }
 .member-role {
-  font-family: 'Helvetica', serif;
+  font-family: 'Helvetica', serif; /* ini bisa diganti sans-serif */
   font-size: 16px;
   line-height: 1.8;
   color: #4B3B2A;
-  text-align: center; /* <- ini bikin center */
+  text-align: center;
   margin-top: 4px;
 }
 
 .member-card h3{
-  margin:0 0 6px 0;
-  font-size:17px;
+  font-family: 'Helvetica', Arial, sans-serif; /* tambahkan ini */
+  display: block;
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 17px;
   color:#BFA189;
   font-weight:600;
 }
