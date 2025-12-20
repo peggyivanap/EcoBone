@@ -253,7 +253,8 @@ footer{
 
 .video-container video{
   width:100%;
-  max-width:720px;   /* ideal utk presentasi & dosen */
+  max-width:360px;   /* PAS utk video portrait 478x850 */
+  height:auto;
   border-radius:14px;
   box-shadow:0 6px 16px rgba(75,59,42,.15);
 }
@@ -352,20 +353,24 @@ footer{
   <p>Hasil penelitian menunjukkan bahwa pasta injectable berbasis hidroksiapatit dari cangkang kulit telur memiliki waktu pengerasan rata-rata 22,5 menit dan stabilitas fisik yang baik, tanpa perubahan bentuk atau kerusakan struktural setelah perendaman dalam PBS selama 24 jam. Hal ini menunjukkan bahwa material ini memiliki potensi untuk diterapkan dalam terapi periodontal dengan kestabilan yang baik.</p>
 </section>
 
-/* VIDEO DOKUMENTASI */
-.video-container{
-  margin-top:20px;
-  display:flex;
-  justify-content:center;
-}
+  <!-- Dokumentasi Section -->
+<section id="Dokumentasi" class="card">
+  <h3>Dokumentasi Proses Pembuatan Bone Graft Injectable</h3>
 
-.video-container video{
-  width:100%;
-  max-width:360px;   /* PAS untuk video portrait */
-  height:auto;       /* jaga rasio 478x850 */
-  border-radius:14px;
-  box-shadow:0 6px 16px rgba(75,59,42,.15);
-}
+  <p>
+    Dokumentasi visual proses pembuatan bone graft injectable berbasis
+    hidroksiapatit dari cangkang kulit telur, mulai dari preparasi bahan
+    hingga formulasi akhir dalam bentuk injectable.
+  </p>
+
+  <div class="video-container">
+    <video controls>
+      <source src="piesbitwo.mp4" type="video/mp4">
+      Browser Anda tidak mendukung pemutaran video.
+    </video>
+  </div>
+</section>
+
 
 <!-- Footer -->
 <footer>
